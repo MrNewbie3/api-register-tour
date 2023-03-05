@@ -3,7 +3,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const app = express();
 const cors = require("cors");
-const workoutsRoutes = require("./routes/workouts");
+const workoutsRoutes = require("./api/workouts");
 mongoose.set("strictQuery", false);
 // middleware
 app.use(cors());
